@@ -1,4 +1,4 @@
-Extensi
+
 const fastify = require('fastify')({ logger: true });
 const req = require('request-promise');
 const _required = (variable) => {
