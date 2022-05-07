@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "fastify": "^3.28.0",
+    "fastify-cors": "^6.0.3",
+    "faunadb": "^4.5.4",
+    "follow-redirects": "^1.14.9",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon -r dotenv/config index.js"
+  }
+}
